@@ -1,0 +1,69 @@
+
+html{ height:100%;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #304FFE;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Overpass', sans-serif;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 8%;
+  padding-bottom: 48px;
+}
+
+.wave {
+  z-index: -1;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-family: 'Overpass', sans-serif;
+}
+
+#caption {
+  padding-top: 24px;
+}
+
+a {
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #304FFE;
+  background: #FFFFFF;
+  box-shadow: 0 9px 8px 0 rgba(22,28,73,0.10);
+  border-radius: 24px;
+  display: block;
+  margin: 0 auto;
+  width: 144px;
+  padding: 15px 32px;
+  letter-spacing: 1.2px;
+  font-family: 'Overpass', sans-serif;
+  text-transform: uppercase;
+}
+
+a:hover {
+  box-shadow: 0 16px 16px 0 rgba(22,28,73,0.30);
+  transition: .35s;
+  cursor: pointer;
+}
+
+footer {
+  position:absolute;
+  width:100%;
+  height:100px;
+  padding-top: 48px;
+}
